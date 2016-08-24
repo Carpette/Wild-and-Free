@@ -1,0 +1,1228 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-1220
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=9238 outsize=2329 ok=1
+Cmd: preprocess
+  insize=11291 outsize=719 ok=1
+Cmd: preprocess
+  insize=1986 outsize=2355 ok=1
+Cmd: preprocess
+  insize=1380 outsize=1167 ok=1
+Cmd: preprocess
+  insize=1541 outsize=1963 ok=1
+Cmd: preprocess
+  insize=1953 outsize=2131 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5609 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5609 outsize=4061 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3440 outsize=3720 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3440 outsize=4475 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2678 outsize=1648 kw=SHADOWS_DEPTH TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2678 outsize=892 kw=SHADOWS_DEPTH TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: preprocess
+  insize=1719 outsize=1173 ok=1
+Cmd: preprocess
+  insize=447 outsize=447 ok=1
+Cmd: preprocess
+  insize=2519 outsize=2070 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5752 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5752 outsize=3874 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3424 outsize=3053 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3424 outsize=3809 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: preprocess
+  insize=2985 outsize=566 ok=1
+Cmd: preprocess
+  insize=1607 outsize=2026 ok=1
+Cmd: preprocess
+  insize=1220 outsize=457 ok=1
+Cmd: preprocess
+  insize=9695 outsize=920 ok=1
+Cmd: preprocess
+  insize=1692 outsize=351 ok=1
+Cmd: preprocess
+  insize=2868 outsize=1393 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (86): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (120): implicit truncation of vector type
+  error: 1 plat 4 at (121): implicit truncation of vector type
+  error: 1 plat 4 at (122): implicit truncation of vector type
+  api=4 type=0 insize=7245 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=3353 outsize=2290 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=212993 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=212993 outsize=3833 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=124410 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=124410 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=2120 outsize=2464 ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (22): Can't find include file UnityPBSLighting.cginc
+  error: 2 plat 12 at (31): Syntax error
+  error: 2 plat 12 at (32): Syntax error
+  insize=886 outsize=517 ok=0
+Cmd: preprocess
+  insize=1396 outsize=1183 ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (895): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  insize=1919 outsize=2404 ok=1
+Cmd: preprocess
+  insize=925 outsize=354 ok=1
+Cmd: preprocess
+  insize=1751 outsize=2146 ok=1
+Cmd: preprocess
+  insize=605 outsize=605 ok=1
+Cmd: preprocess
+  insize=1972 outsize=1743 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5105 outsize=2696 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5105 outsize=2095 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3082 outsize=2964 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3082 outsize=2395 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: preprocess
+  insize=1013 outsize=316 ok=1
+Cmd: preprocess
+  insize=1643 outsize=1116 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (50): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at TGP_Include.cginc(26): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(29): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(45): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(48): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  api=4 type=0 insize=5386 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=5231 outsize=2186 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3349 outsize=1981 kw=WATER_REFRACTIVE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3349 outsize=2875 kw=WATER_REFRACTIVE ok=1
+Cmd: preprocess
+  insize=2082 outsize=2424 ok=1
+Cmd: preprocess
+  insize=4714 outsize=2160 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=531931 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=531931 outsize=4678 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=353709 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=353709 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=3017 outsize=2085 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=100034 outsize=3557 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=100034 outsize=2712 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=57163 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=57163 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=2293 outsize=1968 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5505 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5505 outsize=3947 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3349 outsize=3720 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3349 outsize=4240 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: preprocess
+  insize=1346 outsize=974 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (45): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (56): 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(26): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(29): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(45): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(48): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  api=4 type=0 insize=4992 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=2543 outsize=1928 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=40641 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=40641 outsize=2363 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1993 outsize=486 ok=1
+Cmd: preprocess
+  insize=2267 outsize=1338 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5942 outsize=5418 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5942 outsize=2152 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3785 outsize=5052 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3785 outsize=2477 kw=POINT ok=1
+Cmd: preprocess
+  insize=1298 outsize=412 ok=1
+Cmd: preprocess
+  insize=2248 outsize=1907 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=40297 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=40297 outsize=2363 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=23590 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=23590 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=979 outsize=976 ok=1
+Cmd: preprocess
+  insize=2121 outsize=775 ok=1
+Cmd: preprocess
+  insize=3630 outsize=711 ok=1
+Cmd: preprocess
+  insize=4696 outsize=2378 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8373 outsize=5767 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8373 outsize=5978 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5278 outsize=3720 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5278 outsize=4410 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: preprocess
+  insize=4431 outsize=2472 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=227270 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=227270 outsize=4288 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=156335 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=156335 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=634 outsize=634 ok=1
+Cmd: preprocess
+  insize=1674 outsize=1212 ok=1
+Cmd: preprocess
+  insize=2002 outsize=2316 ok=1
+Cmd: preprocess
+  insize=1910 outsize=2281 ok=1
+Cmd: preprocess
+  insize=2482 outsize=2142 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=40297 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=40297 outsize=2363 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=23590 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=23590 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1804 outsize=1214 ok=1
+Cmd: preprocess
+  insize=2700 outsize=1397 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (116): implicit truncation of vector type
+  error: 1 plat 4 at (117): implicit truncation of vector type
+  api=4 type=0 insize=6957 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=5454 outsize=2890 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=532571 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=532571 outsize=4727 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=355373 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=355373 outsize=4719 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=718 outsize=1378 ok=1
+Cmd: preprocess
+  insize=2648 outsize=1898 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=87856 outsize=3427 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=87856 outsize=3370 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (26): Can't find include file TerrainSplatmapCommon.cginc
+  error: 2 plat 12 at (28): Syntax error
+  error: 2 plat 12 at (38): Syntax error
+  error: 1 plat 12 at (55): Unrecognized #pragma surface exclude_path: 'deferred'
+  error: 1 plat 12 at (62): Unrecognized #pragma surface exclude_path: 'deferred'
+  insize=2616 outsize=2215 ok=0
+Cmd: preprocess
+  insize=3959 outsize=1991 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=226854 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=226854 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=157167 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=157167 outsize=4719 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=1242 outsize=409 ok=1
+Cmd: preprocess
+  insize=6809 outsize=797 ok=1
+Cmd: preprocess
+  insize=3029 outsize=1499 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (90): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (124): implicit truncation of vector type
+  error: 1 plat 4 at (125): implicit truncation of vector type
+  error: 1 plat 4 at (126): implicit truncation of vector type
+  api=4 type=0 insize=7322 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=4232 outsize=2202 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7207 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7207 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4998 outsize=3720 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4998 outsize=4410 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: preprocess
+  insize=1180 outsize=314 ok=1
+Cmd: preprocess
+  insize=12994 outsize=2702 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10200 outsize=5280 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10200 outsize=5897 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10204 outsize=4890 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10204 outsize=4483 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9946 outsize=1875 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9946 outsize=3070 kw= ok=1
+Cmd: preprocess
+  insize=8515 outsize=1473 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3825 outsize=1461 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3825 outsize=453 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3827 outsize=1461 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3827 outsize=453 kw=TCP2_NONE ok=1
+Cmd: preprocess
+  insize=1048 outsize=887 ok=1
+Cmd: preprocess
+  insize=1142 outsize=924 ok=1
+Cmd: preprocess
+  insize=1658 outsize=1196 ok=1
+Cmd: preprocess
+  insize=3062 outsize=2316 ok=1
+Cmd: preprocess
+  insize=7297 outsize=1459 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3223 outsize=1461 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3223 outsize=453 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3225 outsize=1461 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3225 outsize=453 kw=TCP2_NONE ok=1
+Cmd: preprocess
+  insize=2855 outsize=1530 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (88): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (117): implicit truncation of vector type
+  error: 1 plat 4 at (118): implicit truncation of vector type
+  error: 1 plat 4 at (119): implicit truncation of vector type
+  error: 1 plat 4 at (120): implicit truncation of vector type
+  api=4 type=0 insize=6719 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=2864 outsize=1800 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=212993 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=212993 outsize=3833 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=124410 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=124410 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (31): Unrecognized #pragma surface exclude_path: 'deferred'
+  error: 2 plat 12 at (39): Can't find include file UnityPBSLighting.cginc
+  error: 2 plat 12 at (45): Can't find include file TerrainSplatmapCommon.cginc
+  error: 2 plat 12 at (57): Syntax error
+  error: 2 plat 12 at (69): Syntax error
+  insize=2899 outsize=1597 ok=0
+Cmd: preprocess
+  insize=5203 outsize=2650 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=531931 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=531931 outsize=4678 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=353709 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=353709 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=6571 outsize=1301 ok=1
+Cmd: preprocess
+  insize=4884 outsize=2452 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=255644 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=255644 outsize=3777 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=169373 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=169373 outsize=3760 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=2882 outsize=2132 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=87856 outsize=3427 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=87856 outsize=3370 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1574 outsize=1141 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (48): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at TGP_Include.cginc(26): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(29): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(45): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(48): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  api=4 type=0 insize=5075 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=2658 outsize=774 ok=1
+Cmd: preprocess
+  insize=975 outsize=305 ok=1
+Cmd: preprocess
+  insize=718 outsize=1378 ok=1
+Cmd: preprocess
+  insize=2453 outsize=1947 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5620 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5620 outsize=3257 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3281 outsize=3037 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3281 outsize=2582 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: preprocess
+  insize=1384 outsize=384 ok=1
+Cmd: preprocess
+  insize=1427 outsize=347 ok=1
+Cmd: preprocess
+  insize=1716 outsize=728 ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (34): Unrecognized #pragma surface exclude_path: 'deferred'
+  error: 2 plat 12 at (42): Can't find include file UnityPBSLighting.cginc
+  error: 2 plat 12 at (47): Can't find include file TerrainSplatmapCommon.cginc
+  error: 2 plat 12 at (59): Syntax error
+  error: 2 plat 12 at (71): Syntax error
+  insize=3108 outsize=1848 ok=0
+Cmd: preprocess
+  insize=1410 outsize=346 ok=1
+Cmd: preprocess
+  insize=1895 outsize=1129 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1102 outsize=925 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1102 outsize=437 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=1275 outsize=329 ok=1
+Cmd: preprocess
+  insize=2313 outsize=644 ok=1
+Cmd: preprocess
+  insize=972 outsize=271 ok=1
+Cmd: preprocess
+  insize=2952 outsize=751 ok=1
+Cmd: preprocess
+  insize=4867 outsize=2446 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=255324 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=255324 outsize=3728 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=166557 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=166557 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=842 outsize=938 ok=1
+Cmd: preprocess
+  insize=753 outsize=1349 ok=1
+Cmd: preprocess
+  insize=4346 outsize=2510 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=108207 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=108207 outsize=3427 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=74528 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=74528 outsize=3760 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=1740 outsize=1404 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=23566 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=23566 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=794 outsize=320 ok=1
+Cmd: preprocess
+  insize=6471 outsize=998 ok=1
+Cmd: preprocess
+  insize=8484 outsize=1442 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3825 outsize=1461 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3825 outsize=453 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3827 outsize=1461 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3827 outsize=453 kw=TCP2_NONE ok=1
+Cmd: preprocess
+  insize=1061 outsize=1452 ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (26): Unrecognized #pragma surface exclude_path: 'deferred'
+  error: 2 plat 12 at (35): Can't find include file TerrainSplatmapCommon.cginc
+  error: 2 plat 12 at (39): Syntax error
+  error: 2 plat 12 at (51): Syntax error
+  insize=1806 outsize=1107 ok=0
+Cmd: preprocess
+  insize=32639 outsize=273 ok=1
+Cmd: preprocess
+  insize=644 outsize=1156 ok=1
+Cmd: preprocess
+  insize=1223 outsize=260 ok=1
+Cmd: preprocess
+  insize=3606 outsize=705 ok=1
+Cmd: preprocess
+  insize=5118 outsize=2686 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=255644 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=255644 outsize=3777 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=169373 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=169373 outsize=3760 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=3606 outsize=1779 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=108415 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=108415 outsize=3338 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=73120 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=73120 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=2185 outsize=2527 ok=1
+Cmd: preprocess
+  insize=8353 outsize=2018 ok=1
+Cmd: preprocess
+  insize=4329 outsize=2502 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=108415 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=108415 outsize=3338 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=73120 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=73120 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=2814 outsize=1876 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6162 outsize=3801 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6162 outsize=4857 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3981 outsize=3452 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3981 outsize=5125 kw=POINT ok=1
+Cmd: preprocess
+  insize=1006 outsize=248 ok=1
+Cmd: preprocess
+  insize=4682 outsize=2713 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=226854 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=226854 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=157167 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=157167 outsize=4719 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=5407 outsize=1803 ok=1
+Cmd: preprocess
+  insize=5029 outsize=1816 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7045 outsize=5190 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7045 outsize=7880 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6962 outsize=4475 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6962 outsize=6125 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8888 outsize=3955 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8888 outsize=5361 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: preprocess
+  insize=2917 outsize=2122 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6786 outsize=5767 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6786 outsize=4280 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3561 outsize=3037 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3561 outsize=2582 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: preprocess
+  insize=4095 outsize=2268 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=108415 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=108415 outsize=3338 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=73120 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=73120 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=3245 outsize=2325 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7022 outsize=5767 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7022 outsize=5808 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3927 outsize=3720 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3927 outsize=4240 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: preprocess
+  insize=7328 outsize=1490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3223 outsize=1461 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3223 outsize=453 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3225 outsize=1461 kw=TCP2_NONE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3225 outsize=453 kw=TCP2_NONE ok=1
+Cmd: preprocess
+  insize=1428 outsize=1855 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4957 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4957 outsize=2005 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2921 outsize=2875 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2921 outsize=2363 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2357 outsize=1648 kw=SHADOWS_DEPTH TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2357 outsize=892 kw=SHADOWS_DEPTH TCP2_RAMPTEXT ok=1
+Cmd: preprocess
+  insize=13848 outsize=2064 ok=1
+Cmd: preprocess
+  insize=1894 outsize=1348 ok=1
+Cmd: preprocess
+  insize=1045 outsize=358 ok=1
+Cmd: preprocess
+  insize=1705 outsize=1024 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=964 outsize=2704 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=964 outsize=502 kw= ok=1
+Cmd: preprocess
+  insize=1818 outsize=1290 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (53): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at TGP_Include.cginc(26): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(29): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(45): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(48): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  api=4 type=0 insize=5386 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=12161 outsize=2584 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9486 outsize=4930 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9486 outsize=5003 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9490 outsize=4638 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9490 outsize=4215 kw=WATER_REFLECTIVE WATER_VERTEX_DISPLACEMENT_ON WATER_EDGEBLEND_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9232 outsize=1835 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9232 outsize=3070 kw= ok=1
+Cmd: preprocess
+  insize=5101 outsize=2679 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=255324 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=255324 outsize=3728 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=166557 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=166557 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=6309 outsize=751 ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (66): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  insize=1920 outsize=782 ok=1
+Cmd: preprocess
+  insize=1483 outsize=1021 ok=1
+Cmd: preprocess
+  insize=2978 outsize=784 ok=1
+Cmd: preprocess
+  insize=1066 outsize=1005 ok=1
+Cmd: preprocess
+  insize=3587 outsize=2523 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=212993 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=212993 outsize=3833 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=124410 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=124410 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1055 outsize=994 ok=1
+Cmd: preprocess
+  insize=5437 outsize=2884 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=531931 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=531931 outsize=4678 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=353709 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=353709 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=7424 outsize=1109 ok=1
+Cmd: preprocess
+  insize=2161 outsize=1814 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5858 outsize=5418 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5858 outsize=2152 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3701 outsize=5052 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3701 outsize=2477 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2808 outsize=2265 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2808 outsize=437 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=1280 outsize=1088 ok=1
+Cmd: preprocess
+  insize=11465 outsize=2629 ok=1
+Cmd: preprocess
+  insize=4731 outsize=2167 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=532571 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=532571 outsize=4727 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=355373 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=355373 outsize=4719 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=2422 outsize=1168 ok=1
+Cmd: preprocess
+  insize=1584 outsize=1240 ok=1
+Cmd: preprocess
+  insize=4378 outsize=1957 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=255324 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=255324 outsize=3728 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=166557 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=166557 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=984 outsize=438 ok=1
+Cmd: preprocess
+  insize=13865 outsize=2635 ok=1
+Cmd: preprocess
+  insize=1773 outsize=1698 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4853 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4853 outsize=1851 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2830 outsize=2875 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2830 outsize=2184 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: preprocess
+  insize=1960 outsize=490 ok=1
+Cmd: preprocess
+  insize=1568 outsize=1224 ok=1
+Cmd: preprocess
+  insize=2704 outsize=941 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2027 outsize=8042 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2027 outsize=1038 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (40): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  insize=939 outsize=671 ok=1
+Cmd: preprocess
+  insize=1576 outsize=991 ok=1
+Cmd: preprocess
+  insize=3056 outsize=1760 ok=1
+Cmd: preprocess
+  insize=2095 outsize=1622 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=86880 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=86880 outsize=3484 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=52045 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=52045 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1713 outsize=2107 ok=1
+Cmd: preprocess
+  insize=881 outsize=820 ok=1
+Cmd: preprocess
+  insize=1590 outsize=1157 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (48): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at TGP_Include.cginc(26): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(29): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(45): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(48): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  api=4 type=0 insize=5075 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=1681 outsize=1156 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (51): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (65): 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(26): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(29): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(45): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(48): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  api=4 type=0 insize=5360 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=2142 outsize=1390 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=87856 outsize=3427 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=87856 outsize=3370 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1699 outsize=302 ok=1
+Cmd: preprocess
+  insize=1433 outsize=1770 ok=1
+Cmd: preprocess
+  insize=1503 outsize=1923 ok=1
+Cmd: preprocess
+  insize=683 outsize=683 ok=1
+Cmd: preprocess
+  insize=1910 outsize=1364 ok=1
+Cmd: preprocess
+  insize=717 outsize=717 ok=1
+Cmd: preprocess
+  insize=27359 outsize=4723 ok=1
+Cmd: preprocess
+  insize=6789 outsize=2909 ok=1
+Cmd: preprocess
+  insize=3399 outsize=667 ok=1
+Cmd: preprocess
+  insize=2119 outsize=1713 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5811 outsize=6433 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5811 outsize=2290 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2777 outsize=3297 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2777 outsize=437 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=4118 outsize=553 ok=1
+Cmd: preprocess
+  insize=2281 outsize=1209 ok=1
+Cmd: preprocess
+  insize=4665 outsize=2706 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=227270 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=227270 outsize=4288 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=156335 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=156335 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=1744 outsize=296 ok=1
+Cmd: preprocess
+  insize=1033 outsize=351 ok=1
+Cmd: preprocess
+  insize=1134 outsize=458 ok=1
+Cmd: preprocess
+  insize=742 outsize=267 ok=1
+Cmd: preprocess
+  insize=944 outsize=941 ok=1
+Cmd: preprocess
+  insize=4395 outsize=1962 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=255644 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=255644 outsize=3777 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=169373 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=169373 outsize=3760 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=1642 outsize=1953 ok=1
+Cmd: preprocess
+  insize=5863 outsize=873 ok=1
+Cmd: preprocess
+  insize=4448 outsize=2479 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=226854 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=226854 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=157167 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=157167 outsize=4719 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=1658 outsize=1988 ok=1
+Cmd: preprocess
+  insize=5662 outsize=758 ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (28): Unrecognized #pragma surface exclude_path: 'deferred'
+  error: 2 plat 12 at (36): Can't find include file TerrainSplatmapCommon.cginc
+  error: 2 plat 12 at (40): Syntax error
+  error: 2 plat 12 at (52): Syntax error
+  insize=2014 outsize=1357 ok=0
+Cmd: preprocess
+  insize=590 outsize=357 ok=1
+Cmd: preprocess
+  insize=7288 outsize=926 ok=1
+Cmd: preprocess
+  insize=32649 outsize=273 ok=1
+Cmd: preprocess
+  insize=1834 outsize=1306 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (53): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at TGP_Include.cginc(26): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(29): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(45): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(48): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  api=4 type=0 insize=5386 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=1264 outsize=1072 ok=1
+Cmd: preprocess
+  insize=5299 outsize=1741 ok=1
+Cmd: preprocess
+  insize=4553 outsize=1891 ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (18): Unrecognized #pragma surface exclude_path: 'deferred'
+  insize=809 outsize=1457 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4946 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4946 outsize=2200 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2506 outsize=3053 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2506 outsize=2485 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1883 outsize=1477 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1883 outsize=673 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4351 outsize=2883 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4351 outsize=1428 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: preprocess
+  insize=1047 outsize=1386 ok=1
+Cmd: preprocess
+  insize=3623 outsize=1787 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=108207 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=108207 outsize=3427 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=74528 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=74528 outsize=3760 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=2781 outsize=2149 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5856 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5856 outsize=4752 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3647 outsize=3720 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3647 outsize=4240 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: preprocess
+  insize=1784 outsize=1172 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=40617 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=40617 outsize=2363 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=6804 outsize=255 ok=1
+Cmd: preprocess
+  insize=4539 outsize=555 ok=1
+Cmd: preprocess
+  insize=2209 outsize=3057 ok=1
+Cmd: preprocess
+  error: 1 plat 12 at (25): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  error: 1 plat 12 at (70): Compiling shaders to OpenGL ES 2.0, Xbox 360, PS3, Flash or DX11 requires both vertex and fragment programs
+  insize=2908 outsize=1307 ok=1
+Cmd: preprocess
+  insize=1098 outsize=799 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=601 outsize=3297 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=601 outsize=908 kw= ok=1
+Cmd: preprocess
+  insize=4868 outsize=1016 ok=1
+Cmd: preprocess
+  insize=2209 outsize=3057 ok=1
+Cmd: preprocess
+  insize=922 outsize=919 ok=1
+Cmd: preprocess
+  insize=1873 outsize=1261 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (65): incorrect number of arguments to numeric-type constructor
+  api=4 type=0 insize=6195 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=2818 outsize=2346 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=86880 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=86880 outsize=3484 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=52045 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=52045 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=599 outsize=599 ok=1
+Cmd: preprocess
+  insize=1273 outsize=1634 ok=1
+Cmd: preprocess
+  insize=1500 outsize=667 ok=1
+Cmd: preprocess
+  insize=5767 outsize=1268 ok=1
+Cmd: preprocess
+  insize=5220 outsize=2656 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=532571 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=532571 outsize=4727 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=355373 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=355373 outsize=4719 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_REFLECTION TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=2874 outsize=2489 ok=1
+Cmd: preprocess
+  insize=4112 outsize=2275 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=108207 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=108207 outsize=3427 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=74528 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=74528 outsize=3760 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=785 outsize=304 ok=1
+Cmd: preprocess
+  insize=725 outsize=317 ok=1
+Cmd: preprocess
+  insize=1399 outsize=967 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (45): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at TGP_Include.cginc(26): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(29): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(45): implicit truncation of vector type
+  error: 1 plat 4 at TGP_Include.cginc(48): 'lerp': implicit truncation of vector type; 'lerp': implicit truncation of vector type
+  api=4 type=0 insize=5075 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=2309 outsize=1693 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=40641 outsize=2607 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=40641 outsize=2363 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1205 outsize=992 ok=1
+Cmd: preprocess
+  insize=1393 outsize=1049 ok=1
+Cmd: preprocess
+  insize=2096 outsize=1894 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5239 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5239 outsize=3525 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3184 outsize=3053 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3184 outsize=3809 kw=POINT TCP2_RAMPTEXT TCP2_SPEC_TOON ok=1
+Cmd: preprocess
+  insize=1124 outsize=1488 ok=1
+Cmd: preprocess
+  insize=956 outsize=953 ok=1
+Cmd: preprocess
+  insize=4039 outsize=883 ok=1
+Cmd: preprocess
+  insize=3940 outsize=649 ok=1
+Cmd: preprocess
+  error: 2 plat 12 at (19): Can't find include file TerrainSplatmapCommon.cginc
+  error: 2 plat 12 at (21): Syntax error
+  error: 2 plat 12 at (31): Syntax error
+  error: 1 plat 12 at (48): Unrecognized #pragma surface exclude_path: 'deferred'
+  error: 1 plat 12 at (54): Unrecognized #pragma surface exclude_path: 'deferred'
+  insize=1820 outsize=1377 ok=0
+Cmd: preprocess
+  insize=7543 outsize=1912 ok=1
+Cmd: preprocess
+  insize=880 outsize=301 ok=1
+Cmd: preprocess
+  insize=3251 outsize=2319 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=100034 outsize=3557 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=100034 outsize=2712 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=57163 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=57163 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=3942 outsize=1983 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=227270 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=227270 outsize=4288 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=156335 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=156335 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_RIMDIR_OFF ok=1
+Cmd: preprocess
+  insize=1725 outsize=1007 ok=1
+Cmd: preprocess
+  insize=1816 outsize=2209 ok=1
+Cmd: preprocess
+  insize=1346 outsize=297 ok=1
+Cmd: preprocess
+  insize=2157 outsize=982 ok=1
+Cmd: preprocess
+  insize=1477 outsize=1062 ok=1
+Cmd: preprocess
+  insize=2350 outsize=2342 ok=1
+Cmd: preprocess
+  insize=5325 outsize=774 ok=1
+Cmd: preprocess
+  insize=1087 outsize=489 ok=1
+Cmd: preprocess
+  insize=2169 outsize=1816 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5413 outsize=3549 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5413 outsize=2598 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3262 outsize=3200 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3262 outsize=2867 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: preprocess
+  insize=1220 outsize=387 ok=1
+Cmd: preprocess
+  insize=3098 outsize=1769 ok=1
+Cmd: preprocess
+  insize=581 outsize=259 ok=1
+Cmd: preprocess
+  insize=2483 outsize=1166 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (37): 'tex2Dproj': no matching 2 parameter intrinsic function; Possible intrinsic functions are: tex2Dproj(sampler2D, float4|half4|min10float4|min16float4)
+  api=4 type=0 insize=1623 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=731 outsize=314 ok=1
+Cmd: preprocess
+  insize=2499 outsize=755 ok=1
+Cmd: preprocess
+  insize=5293 outsize=886 ok=1
+Cmd: preprocess
+  insize=1965 outsize=1766 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5107 outsize=3387 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5107 outsize=2282 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2983 outsize=3037 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2983 outsize=2582 kw=POINT TCP2_RAMPTEXT ok=1
+Cmd: preprocess
+  insize=2528 outsize=1596 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=100034 outsize=3557 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=100034 outsize=2712 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=57163 outsize=2875 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=57163 outsize=2696 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_REFLECTION TCP2_LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1872 outsize=2241 ok=1
+Cmd: preprocess
+  insize=1734 outsize=683 ok=1
+Cmd: preprocess
+  insize=2584 outsize=2112 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=86880 outsize=3094 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=86880 outsize=3484 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=52045 outsize=3053 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=52045 outsize=3825 kw=POINT TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=532571 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_REFLECTION_MASKED TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=532571 outsize=4784 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_REFLECTION_MASKED TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=355373 outsize=2338 kw=DIRECTIONAL TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_REFLECTION_MASKED TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=355373 outsize=4191 kw=DIRECTIONAL TCP2_RAMPTEXT_OFF TCP2_BUMP_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_REFLECTION_MASKED TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=108415 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_LIGHTMAP_OFF TCP2_BUMP TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=108415 outsize=3257 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT TCP2_LIGHTMAP_OFF TCP2_BUMP TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=73120 outsize=2257 kw=DIRECTIONAL TCP2_RAMPTEXT TCP2_LIGHTMAP_OFF TCP2_BUMP TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=73120 outsize=2111 kw=DIRECTIONAL TCP2_RAMPTEXT TCP2_LIGHTMAP_OFF TCP2_BUMP TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3825 outsize=2477 kw=TCP2_NONE TCP2_OUTLINE_TEXTURED TCP2_OUTLINE_CONST_SIZE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3825 outsize=665 kw=TCP2_NONE TCP2_OUTLINE_TEXTURED TCP2_OUTLINE_CONST_SIZE ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=532571 outsize=5767 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_REFLECTION_MASKED TCP2_BUMP TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=532571 outsize=5840 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF TCP2_RAMPTEXT_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_REFLECTION_MASKED TCP2_BUMP TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=355373 outsize=2940 kw=DIRECTIONAL TCP2_RAMPTEXT_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_REFLECTION_MASKED TCP2_BUMP TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=355373 outsize=4589 kw=DIRECTIONAL TCP2_RAMPTEXT_OFF TCP2_SPEC TCP2_LIGHTMAP_OFF TCP2_REFLECTION_MASKED TCP2_BUMP TCP2_RIMDIR_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3701 outsize=4288 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3701 outsize=2005 kw=DIRECTIONAL ok=1

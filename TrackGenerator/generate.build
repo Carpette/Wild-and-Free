@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<project name="wild" default="generate" basedir="..\.">
+	<script language="C#" prefix="loop">
+		<code><![CDATA[
+
+    /// <summary>
+    /// A while loop task. Will continuelly execute the task while the <c>test</c> is <c>empty</c> 
+    /// or evalutes to <c>true</c>.
+    /// </summary>
+    [TaskName("while")]
+    public class WhileTask : TaskContainer
+    {
+        private string _test;
+        private TaskContainer _childTasks;
+
+        /// <summary>
+        /// The expression to test each iteration. If empty, then always evalutes to true (i.e. infinite loop.)
+        /// </summary>
+        [TaskAttribute("test", ExpandProperties = false)]
+        public string Test
+        {
+            get { return _test; }
+            set { _test = NAnt.Core.Util.StringUtils.ConvertEmptyToNull(value); }
+        }
+
+        /// <summary>
+        /// Superficial to ensure the XML schema is rendered correctly for this task. It will get executed
+        /// if tasks exist within it.
+        /// </summary>
+        [BuildElement("do")]
+        public TaskContainer ChildTasks
+        {
+            get { return _childTasks; }
+            set { _childTasks = value; }
+        }
+
+        /// <summary>
+        /// Executes the while loop while the <c>test</c> evalutes to true or <c>test</c> is empty.
+        /// </summary>
+        protected override void ExecuteTask()
+        {
+            while (this.Test == null
+                || bool.Parse(Project.ExpandProperties(this.Test, this.Location)))
+            {
+                if (this._childTasks != null)
+                {
+                    this._childTasks.Execute();
+                }
+                else
+                {
+                    base.ExecuteTask();
+                }
+            }
+        }
+    }
+
+          ]]></code>
+	</script>
+	<target name="generate">
+		<while>
+			<echo message="starting track generation" />
+			<exec program="C:\Program Files (x86)\Unity\Editor\Unity.exe" commandline="-quit -projectPath D:\Dropbox\CanyonCarving -executeMethod TrackGenerator.Generate">
+			</exec>
+			<echo message="new track generated" />
+		</while>
+	</target>
+</project>

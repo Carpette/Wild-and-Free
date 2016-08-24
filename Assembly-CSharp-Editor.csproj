@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{DD58692F-BD29-7636-2338-D90C14005D77}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_1;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\GerstnerDisplaceEditor.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\PlanarReflectionEditor.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\SpecularLightingEditor.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\WaterBaseEditor.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\WaterEditorUtility.cs" />
+     <Compile Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Editor\Image Effects\FrostEditor.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Config.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_GUI.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_MaterialInspector.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_Menu.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_OutlineInspector.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_ShaderGenerator.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\TCP2_SmoothedNormalsUtility.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_ShaderGeneratorUtils.cs" />
+     <Compile Include="Assets\JMO Assets\Toony Colors Pro\Editor\Utils\TCP2_Utils.cs" />
+     <Compile Include="Assets\Scripts\Build\Editor\BatchExecutor.cs" />
+     <Compile Include="Assets\Scripts\Build\Editor\EditorCRC.cs" />
+     <Compile Include="Assets\Scripts\Build\Editor\FixScripts.cs" />
+     <Compile Include="Assets\Scripts\Build\Editor\FixScriptsEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\Baker.cs" />
+     <Compile Include="Assets\Scripts\Editor\EnvironmentPopulator.cs" />
+     <Compile Include="Assets\Scripts\Editor\EnvironmentWizard.cs" />
+     <Compile Include="Assets\Scripts\Editor\KeyGenerator.cs" />
+     <Compile Include="Assets\Scripts\Editor\KickstarterFriendMaker.cs" />
+     <Compile Include="Assets\Scripts\Editor\LoadSplatWizard.cs" />
+     <Compile Include="Assets\Scripts\Editor\Mobilify.cs" />
+     <Compile Include="Assets\Scripts\Editor\PerlinWizard.cs" />
+     <Compile Include="Assets\Scripts\Editor\RenderCubemapWizard.cs" />
+     <Compile Include="Assets\Scripts\Editor\SaveTerrainDataWizard.cs" />
+     <Compile Include="Assets\Scripts\Editor\Skyes.cs" />
+     <Compile Include="Assets\Scripts\Editor\SteamFriendMaker.cs" />
+     <Compile Include="Assets\Scripts\Editor\SteamParser.cs" />
+     <Compile Include="Assets\Scripts\Editor\Toonify.cs" />
+     <Compile Include="Assets\Scripts\Editor\TrackEditor.cs" />
+     <Compile Include="Assets\Scripts\Editor\TrackGenerator.cs" />
+     <Compile Include="Assets\Scripts\Editor\UluleFriendMaker.cs" />
+     <Compile Include="Assets\Scripts\Editor\VoteGenerator.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\AimIKInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\BipedIKInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\BipedIKSolversInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\BipedReferencesInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\CCDIKInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\ConstraintsInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\FABRIKInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\FABRIKRootInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\FullBodyBipedIKInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKEffectorInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverAimInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverFABRIKRootInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverFullBodyBipedInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverFullBodyInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverHeuristicInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverLimbInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverLookAtInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\IKSolverTrigonometricInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\Inspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\InteractionTargetInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\InteractionTriggerInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\LimbIKInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\LookAtIKInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\RotationLimitAngleInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\RotationLimitHingeInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\RotationLimitInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\RotationLimitPolygonalInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\RotationLimitSplineInspector.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\SerializedContent.cs" />
+     <Compile Include="Assets\Scripts\RootMotion\Editor\TrigonometricIKInspector.cs" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\readme_treeBarkShader.txt" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_RimOutline_OutlineBlending.shader" />
+     <None Include="Assets\Standard Assets\Glass Refraction (Pro Only)\Sources\Shaders\Glass-Stained-BumpDistort.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Advanced Blend Glitter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\External Assets\Free\ats Package\Demoscene\Terrain\UnityTerrainBump\TerrainReplacement.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection_RimOutline_Outline.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\3D\Shaders\TerrainEngine.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Full.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline_Basic_OneLight.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_RimOutline_OutlineBlending.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\SnowLighting.cginc" />
+     <None Include="Assets\External Assets\Bought\Envrionment_Desert\SourceFile\Plants\PlantLeaves.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline_SM2.shader" />
+     <None Include="Assets\External Assets\Free\Vegetation\Palm Trees\Shaders\WavingDoublePassNoCullBackface.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Texture Blend Reflective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Ressources\ShadersBuiltin\Camera-DepthTexture.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\TCP2_OutlineOnly Blended.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Rim_Outline.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\Resources\Localisation\en_UK.txt" />
+     <None Include="Assets\External Assets\Bought\Rock_for_Landscape\Shader\TextureMask.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBasic.shader" />
+     <None Include="Assets\External Assets\Free\IK\Readme.txt" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\readme_grassShader.txt" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_RimOutline_Bump_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection_OutlineBlending.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Rim.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_RimOutline_Basic_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\External Assets\Free\Vegetation\CactusPack\Shaders\VertexBlend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\3D\Shaders\Splats\Standard-AddPass.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Height Blend Reflective Glitter.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpDetail.shader" />
+     <None Include="Assets\3D\Shaders\Toon-TreeLeaves.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Basic_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_Specular_Outline.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection_RimOutline_OutlineBlending.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_Specular_Outline.shader" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorLeavesRendertex.shader" />
+     <None Include="Assets\External Assets\Bought\Rock_for_Landscape\Shader\Ice.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\!ToonyColorsPro Readme.txt" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\atsV2 billboardShader package\TreeCreatorBarkRendertex.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\External Assets\Free\ats Package\ats treeBarkShader Package\Shader\SH-Tree Bark rendertex.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpSpecCutout.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_RimOutline_Spec_OneLight.shader" />
+     <None Include="Assets\External Assets\Free\ats Package\ats treeBarkShader Package\Shader\BillboardTree.shader" />
+     <None Include="Assets\Resources\Localisation\Shader\Diffuse_RoadOffset.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonCutout.shader" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\ats pathShader Package\Shader\ats Road Path bumped diffuse alphatest.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection_Rim.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_Specular_OutlineBlending.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\BillboardTreeSnow.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\Mobile-Diffuse.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_OutlineCst_BumpSpec_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection_Rim_Outline.shader" />
+     <None Include="Assets\External Assets\Free\ats Package\readme_vertexLitShader.txt" />
+     <None Include="Assets\3D\Shaders\Splats\Specular-AddPass.shader" />
+     <None Include="Assets\Resources\Localisation\ru_RU.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\SnowInputs.cginc" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\SnowSurface.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\3D\Shaders\Toon-TreeBark.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\TCP2_OutlineOnly.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Texture Blend Glitter.shader" />
+     <None Include="Assets\3D\Shaders\Test-CactusBark.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\External Assets\Bought\Environment-Alpine\SourceFile\Shader\PlantLeaves.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Includes\atsWavingGrass vertexAlpha.cginc" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline_Bump_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\atsV2 grassShader Package\atsV2WavingGrass.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorBarkRendertexSnow.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_OutlineBlending.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection_Rim_OutlineBlending.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Rim_Outline.shader" />
+     <None Include="Assets\3D\Shaders\Toon-CactusBark.shader" />
+     <None Include="Assets\External Assets\Free\Vegetation\CactusPack\Readme.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection_RimOutline_Outline.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Image Effects\Shaders\Frost.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Rim_OutlineBlending.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBump.shader" />
+     <None Include="Assets\External Assets\Free\ats Package\ats treeBarkShader Package\Shader\Tree.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_RimOutline_Outline.shader" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\readme_billboardShader.txt" />
+     <None Include="Assets\3D\Shaders\ToonLeaves.cginc" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Include.cginc" />
+     <None Include="Assets\Scenes\InGame\BeastSettings.xml" />
+     <None Include="Assets\External Assets\Free\ats Package\ats vertexLitShader Package\Shader\ats VertexLit.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection_OutlineBlending.shader" />
+     <None Include="Assets\External Assets\Free\ats Package\ats treeBarkShader Package\Shader\SH_Vertex.cginc" />
+     <None Include="Assets\Resources\version.txt" />
+     <None Include="Assets\3D\Shaders\Splats\AddPass.shader" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\atsV2 billboardShader package\Tree.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Rim.shader" />
+     <None Include="Assets\3D\Shaders\Splats\Specular-Base.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\3D\Skidmarks\Skidmarks.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_Outline.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\atsV3WavingGrassBillboardSnow.shader" />
+     <None Include="Assets\External Assets\Bought\Landscapes part2\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection_Rim.shader" />
+     <None Include="Assets\External Assets\Bought\Environment-Alpine\SourceFile\Shader\DiffuseShine.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Advanced Blend.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline.shader" />
+     <None Include="Assets\External Assets\Bought\Allsky\allsky_readme.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\readme_terrainBumpShader.txt" />
+     <None Include="Assets\3D\Shaders\Splats\Specular-FirstPass.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Resources\names.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\atsV3WavingGrassSnow vertexAlpha.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\TCP2_Mobile.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_OutlineCst_Bump_OneLight.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_OutlineCst_Spec_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_Outline.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\atsV2 UnityTerrainBump Package\TerrainReplacementAtsV2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Full Glitter.shader" />
+     <None Include="Assets\External Assets\Bought\Landscapes part2\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Forward\Snow.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpReflecRim.shader" />
+     <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_BumpSpec_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorLeavesOptimizedSnow.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection_RimOutline_OutlineBlending.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_RimOutline.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Height Blend.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpSpecRim.shader" />
+     <None Include="Assets\Scenes\MainMenu\BeastSettings.xml" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\Tree.cginc" />
+     <None Include="Assets\External Assets\Free\Elementals\!Readme.txt" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_OutlineCst_Basic_Rim_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\3D\Shaders\SH_Vertex.cginc" />
+     <None Include="Assets\External Assets\Free\ats Package\ats treeBarkShader Package\Shader\ats SH-Tree Bark.shader" />
+     <None Include="Assets\3D\Shaders\Toon-CactusBarkBillboard.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeSnow.cginc" />
+     <None Include="Assets\Resources\Localisation\es_ES.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Texture Blend.shader" />
+     <None Include="Assets\Resources\Localisation\it_IT.txt" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_OutlineCst_BumpSpec_Rim_OneLight.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Advanced Blend Reflective Glitter.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\snowShaderBumpedDiffuse.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\3D\Shaders\Toon-CactusLeaves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\3D\Shaders\Splats\FirstPass.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Ressources\ShadersBuiltin\Camera-DepthNormalTexture.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Bump_OneLight.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Advanced Blend Reflective.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_OutlineBlending.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\External Assets\Free\ats Package\readme_treeBarkShader.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection_Outline.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Mobile_Specular.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Forward\Snow Blend.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection_RimOutline.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_OutlineCst_Bump_Rim_OneLight.shader" />
+     <None Include="Assets\External Assets\Bought\Rock_for_Landscape\Shader\Rock_shader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\TCP2_OutlineOnly Blended SM2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Resources\Localisation\de_DE.txt" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\TerrainReplacementAtsV3Snow.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpRim.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpSpecReflecRim.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonDetail.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Resources\Localisation\ru_RU2.txt" />
+     <None Include="Assets\External Assets\Free\Vegetation\CactusPack\Shaders\Basic_Rimlight.shader" />
+     <None Include="Assets\3D\Shaders\ToonBark.cginc" />
+     <None Include="Assets\3D\Shaders\ToonTreeOutline.shader" />
+     <None Include="Assets\3D\Shaders\Splats\Standard-FirstPass.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Resources\Localisation\fr_FR.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonSpec.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection_Outline.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\SnowCore.cginc" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Height Blend Glitter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\External Assets\Free\Vegetation\Palm Trees\Shaders\WavingDoublePassCullBackface.shader" />
+     <None Include="Assets\3D\Shaders\Splats\Standard-Base.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_RimOutline_Outline.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\External Assets\Free\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorLeavesRendertexSnow.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection_Rim_Outline.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline_Behind.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_RimOutline_BumpSpec_OneLight.shader" />
+     <None Include="Assets\Resources\Localisation\pt_BR.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_Specular.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_OutlineCst_Spec_Rim_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Reflection.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\External Assets\Bought\Rock_for_Landscape\Shader\ColourMix.shader" />
+     <None Include="Assets\External Assets\Free\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorBarkOptimizedSnow.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\TCP2_Desktop.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Editor\Shader Templates\TCP2_User.txt" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_OutlineCst_Basic_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Outline_Behind_SM2.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Full Reflective Glitter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonSpecReflec.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Height Blend Reflective.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection_Rim_OutlineBlending.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\TCP2_OutlineOnly SM2.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Full Reflective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Reflection_RimOutline.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Spec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Include\TCP2_Include.cginc" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_Specular_Rim_OutlineBlending.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpSpecmapReflecRim.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline_Spec_OneLight.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0 Generated\Wild\ToonBumpSpecmapRim.shader" />
+     <None Include="Assets\External Assets\Free\0000 ats V2 package\readme_vertexLitShader.txt" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants Base\TCP2_Desktop_Specular_OutlineBlending.shader" />
+     <None Include="Assets\External Assets\Bought\Landscapes part2\Resources\galss\Shader terrain.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\JMO Assets\Toony Colors Pro\Shaders 2.0\Variants\TCP2_Desktop_RimOutline.shader" />
+     <None Include="Assets\External Assets\Bought\BlackfireStudio\Winter\Shaders\Snow\Snow Texture Blend Reflective Glitter.shader" />
+     <None Include="Assets\3D\Shaders\Mobile\TGP_Outline_BumpSpec_OneLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="SharpzipForUnity">
+ <HintPath>D:/Dropbox/CanyonCarving/Assets/Dlls/SharpzipForUnity.dll</HintPath>
+ </Reference>
+ <Reference Include="JMOAssets">
+ <HintPath>D:/Dropbox/CanyonCarving/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/androidplayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/wp8support/UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/metrosupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/blackberryplayer/UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WebGL.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/webglsupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/linuxstandalonesupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.OSXStandalone.Extensions">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{B38AA897-1BB8-1E49-ABD8-7291D0B881BB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{8DCB6AC0-254B-88A5-2EB1-B120C49782C0}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{F57A4C63-CD5F-DFB2-48B0-ABB5187F7FED}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{E3F75CEE-7DCA-C449-3259-69990DA37E6E}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

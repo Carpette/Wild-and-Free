@@ -1,0 +1,15 @@
+parcourir tous les objets des scenes signprops commonprops animals resources ingame main menu
+supprimer les scripts quand unity est fermé
+beware crow for flock et player
+
+apply noir->bleu
+
+desactiver l antivirus pour la generation du setup
+
+missing behaviours:
+
+pilots fullbodyik
+cameras motion blur
+ingamemode menu
+tile water tile
+camera postfxmanager wildmotion blur motion blur

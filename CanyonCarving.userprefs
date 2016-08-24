@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="D:\backup Wild\2015_04_18\Assets\Scripts\Krab.cs">
+    <Files>
+      <File FileName="D:\backup Wild\2015_04_18\Assets\Scripts\GameMode.cs" Line="1" Column="1" />
+      <File FileName="d:\backup Wild\2015_04_18\Assets\Scripts\RootMotion\BipedNaming.cs" Line="144" Column="31" />
+      <File FileName="D:\backup Wild\2015_04_18\Assets\Scripts\GameInputs.cs" Line="1" Column="1" />
+      <File FileName="D:\backup Wild\2015_04_18\Assets\Scripts\GameMenu.cs" Line="1" Column="1" />
+      <File FileName="D:\backup Wild\2015_04_18\Assets\Scripts\Garage.cs" Line="1" Column="1" />
+      <File FileName="D:\backup Wild\2015_04_18\Assets\Scripts\Krab.cs" Line="89" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

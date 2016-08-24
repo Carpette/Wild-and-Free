@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<project name="wild" default="build" basedir="..\.">
+	<target name="build">
+		<call target="clean" />
+		<call target="removeConflicts" />
+        <call target="copy" />
+        <call target="compile" />
+        <call target="openProject" />        
+        <call target="obfuscate" /> 
+    </target>    
+    <target name="clean">
+        <delete dir="../../WildBuild" />
+    </target>
+    <target name="removeConflicts">
+	    <delete>
+		   	<fileset basedir="..">
+		   		<include name="**/*Copie en conflit de*.*" />
+		    </fileset>
+	    </delete>        
+    </target>    
+	<target name="copy" description="copy assets">
+		<copy todir="../../WildBuild/Assets">
+		<fileset basedir="Assets">
+		</fileset>
+	    </copy>
+	    <copy todir="../../WildBuild/ProjectSettings">
+	    <fileset basedir="ProjectSettings">
+	    </fileset>
+	    </copy>
+	    <copy todir="../../WildBuild/Setup">
+	    <fileset basedir="Setup">
+	    </fileset>
+	    </copy>
+	    <delete>
+		   	<fileset basedir="../../WildBuild/Assets">
+		        <include name="Scripts/Editor/*.cs" />
+		        <include name="Scripts/RootMotion/Editor/*.cs" />
+		    </fileset>
+	    </delete>
+    </target>
+	<target name="compile" description="compiles the source code">   
+		<csc target="library" output="../../WildBuild/wild.dll" debug="true">
+		    <sources>
+		        <include name="Assets/Scripts/*.cs" />
+		        <include name="Assets/Scripts/RootMotion/*.cs" />
+		        <include name="Assets/Scripts/Water/*.cs" />
+		    </sources>
+		    <references>
+		        <include name="System.dll" />
+		        <include name="System.Core.dll" />
+		        <include name="System.Xml.dll" />
+		        <include name="C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEngine.dll" />
+		        <include name="C:\Program Files (x86)\Unity\Editor\Data\Managed\UnityEditor.dll" />
+		        <include name="C:\Program Files (x86)\Unity\Editor\Data\Mono\lib\mono\unity\mscorlib.dll" />
+		        <include name="D:\Dropbox\CanyonCarving\Assets\Dlls\SharpzipForUnity.dll" />
+		    </references>
+		</csc>
+	</target>
+	<target name="openProject">
+		<exec program="C:\Program Files (x86)\Unity\Editor\Unity.exe" commandline="-quit -projectPath D:\WildBuild" >
+		</exec>
+	</target>	
+	<target name="obfuscate" depends="compile">
+		<exec program="C:\Program Files (x86)\LogicNP Software\Crypto Obfuscator For .Net 2011 R3\co.exe" >
+				<arg value="projectfile=D:\Dropbox\CanyonCarving\Setup\wild.obproj" />
+		</exec>
+		<delete file="../../WildBuild/wild.dll" />
+	</target>
+	<target name="retrieveScripts">
+		<exec program="C:\Program Files (x86)\Unity\Editor\Unity.exe" commandline="-projectPath D:\WildBuild -executeMethod FixScripts.Batch" >
+		</exec>
+	</target>
+    <target name="removeCSharp">
+	    <delete>
+		   	<fileset basedir="../../WildBuild/Assets">
+		        <include name="Scripts/*.*" />
+		    </fileset>
+	    </delete>        
+    </target> 	
+	<target name="buildVersions">
+		<exec program="C:\Program Files (x86)\Unity\Editor\Unity.exe" commandline="-quit -batchmode -buildWindowsPlayer  D:\WildBuild\Standalone\Wild.exe" >
+		</exec>
+		<exec program="C:\Program Files (x86)\Unity\Editor\Unity.exe" commandline="-quit -batchmode -buildLinuxUniversalPlayer D:\WildBuild\Linux" >
+		</exec>
+		<exec program="C:\Program Files (x86)\Unity\Editor\Unity.exe" commandline="-quit -batchmode -buildOSXUniversalPlayer D:\WildBuild\Mac" >
+		</exec>
+	</target>
+	<target name="buildSetup" depends="buildVersions">	
+		<exec program="C:\Program Files (x86)\Inno Setup 5\compil32.exe" commandline="/cc D:\WildBuild\Setup\Wild\MakeSetup.iss" >
+		</exec>
+	</target>
+	<target name="buildSetupOnly" >	
+		<exec program="C:\Program Files (x86)\Inno Setup 5\compil32.exe" commandline="/cc D:\WildBuild\Setup\Wild\MakeSetup.iss" >
+		</exec>
+	</target>		
+</project>

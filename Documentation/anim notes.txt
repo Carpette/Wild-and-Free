@@ -1,0 +1,106 @@
+selectionner le root et full body pour sauvergarder et restaurer les poses, et poser des key frames
+rotation filter none , smart plot, plot locked properties pour baker vers le skeleton
+pour l integration attention a avoir un seul animation component pour le pilot, virer le rig, decocher play automatically.
+Mettre des keyframes au debut des anims
+Refaire le prefab pour reimporter
+0 bind
+1 stand
+2 turn left
+3 stand
+4 turn right
+5 bend forward
+6 stand
+7 bend backward
+8 stand
+9 jump
+10 stopped
+13 foot above foot rest
+14 stand
+15 walk back
+18 stand
+19 win start
+22 win rise
+24 stand
+25 fall
+26 loose
+30 stand
+31 stand
+32 left punch
+39 stand
+40 stand
+41 right punch
+48 stand
+49 stand
+50 left kick
+57 stand
+58 stand
+59 right kick
+66 stand
+
+67 bind
+68 stand
+69 turn left
+70 stand
+71 turn right
+72 bend forward
+73 stand
+74 bend backward
+75 stand
+76 jump
+77 stopped
+79 foot above foot rest
+80 stand
+81 walk back
+85 stand
+86 win start
+89 win rise
+91 stand
+92 fall
+93 stand
+94 loose
+97 stand
+98 stand
+99 left punch
+106 stand
+107 stand
+108 right punch
+115 stand
+116 stand
+117 left kick
+124 stand
+125 stand
+126 right kick
+133 stand
+
+bind1 0 1
+stand1 1 2
+lean1 2 4
+speed1 5 7
+fly1 8 9
+stopped1 10 14
+back1 15 17.9 loop
+win1 18 24
+fall1 25 26
+loose1 26 30
+LeftPunch1 31 39
+RightPunch1 40 48
+LeftKick1 49 57
+RightKick1 58 66
+
+bind2 67 68
+stand2 68 69
+lean2 69 71
+speed2 72 74
+fly2 75 76
+stopped2 77 81
+back2 82 84.9 loop
+win2 85 91
+fall2 92 93
+loose2 93 97
+LeftPunch2 98 106
+RightPunch2 107 115
+LeftKick2 116 124
+RightKick2 125 133
+
+resolution pb mains
+ne pas sauvegarder physical properties,supprimer control rigs inutiles virer les pins d IK dans mobu refresh et reimport dans unity
